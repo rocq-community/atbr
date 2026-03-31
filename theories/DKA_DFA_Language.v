@@ -13,7 +13,7 @@
    procedure.
    *)
 
-From Coq Require Import List.
+From Stdlib Require Import List.
 
 From ATBR Require Import Common.
 From ATBR Require Import Classes.
@@ -276,4 +276,3 @@ Proof.
 Qed.
 
 End protect.
-

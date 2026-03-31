@@ -32,7 +32,7 @@ Export RegExp.Load.
 From ATBR Require Import MyFSets.
 From ATBR Require Import MyFSetProperties.
 From ATBR Require Import MyFMapProperties.
-From Coq Require FMapAVL.
+From Stdlib Require FMapAVL.
 From ATBR Require Numbers.
 Export Numbers.PositiveUtils.
 

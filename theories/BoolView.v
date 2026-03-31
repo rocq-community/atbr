@@ -31,8 +31,8 @@
 *)
 
 From ATBR Require Import Common.
-From Coq Require Export Bool.
-From Coq Require Import Equality Program Sumbool Peano.
+From Stdlib Require Export Bool.
+From Stdlib Require Import Equality Program Sumbool Peano.
 
 #[local] Ltac Tauto.intuition_solver ::= auto with exfalso lia.
 
@@ -256,4 +256,3 @@ Ltac completer tac:=
     | [H : ?x = ?y |- _ ]  => subst H
     | _ => tac
   end.
-

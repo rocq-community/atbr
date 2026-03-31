@@ -11,8 +11,8 @@
 
 
 From ATBR Require Import Common Classes.
-From Coq Require Import FMapPositive.
-From Coq Require Import Eqdep.
+From Stdlib Require Import FMapPositive.
+From Stdlib Require Import Eqdep.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

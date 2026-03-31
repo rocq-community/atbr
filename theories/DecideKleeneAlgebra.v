@@ -24,7 +24,7 @@ From ATBR Require DKA_DFA_Equiv.
 From ATBR Require StrictStarForm.
 From ATBR Require Reification.
 
-From Coq Require Import List.
+From Stdlib Require Import List.
 
 Definition word := list positive.
 Inductive CounterExample: Set :=

@@ -11,7 +11,7 @@
 From ATBR Require Import Common.
 From ATBR Require Import Classes.
 From ATBR Require Converse.
-From Coq Require Import Relations.
+From Stdlib Require Import Relations.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
