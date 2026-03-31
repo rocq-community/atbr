@@ -100,4 +100,4 @@ Module KA.
   End S.
 End KA.    
 
-Declare ML Module "reification_plugin:coq-atbr.plugin".
+Declare ML Module "coq-atbr.plugin".
