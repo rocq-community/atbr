@@ -38,7 +38,7 @@
    acc) m]), one will use [set_induction_below] and rewrite the lemma
    [fold_add_below] *)
 
-From Coq Require Import FSets.
+From Stdlib Require Import FSets.
 From ATBR Require Import Common.
 From ATBR Require Import BoolView.
 
@@ -367,4 +367,3 @@ Module MySetProps (X : FSetInterface.S).
   Qed.
 
 End MySetProps.  
-

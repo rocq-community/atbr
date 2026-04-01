@@ -8,7 +8,7 @@
 
 (** Handler for FMap properties, provides the [find_tac] tactic. *)
 
-From Coq Require Import FMaps.
+From Stdlib Require Import FMaps.
 From ATBR Require Import Common.
 From ATBR Require Import BoolView.
 

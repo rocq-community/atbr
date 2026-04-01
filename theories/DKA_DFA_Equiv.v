@@ -25,8 +25,8 @@ From ATBR Require Import DKA_StateSetSets.
 From ATBR Require DKA_DFA_Language.
 
 From ATBR Require Import Utils_WF.
-From Coq Require Import Relations.
-From Coq Require Import List.
+From Stdlib Require Import Relations.
+From Stdlib Require Import List.
 
 Import DSUtils.Notations.
 

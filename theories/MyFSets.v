@@ -12,9 +12,9 @@
    TODO: Coq standard library has evolved in v8.3, so that (parts of)
    this file might no longer be useful.  *)
 
-From Coq Require Export FMaps FSets.
-From Coq Require Import List.
-From Coq Require Import NArith.
+From Stdlib Require Export FMaps FSets.
+From Stdlib Require Import List.
+From Stdlib Require Import NArith.
 
 (** Functors to perform "transparent sealing". *)
 Module FSetHide (X : FSetInterface.S).
@@ -233,4 +233,3 @@ End PairOrderedType.
 
 Module Nat_as_OT := OrderedType_from_Alt Nat_as_OTA.
 Module Pos_as_OT := OrderedType_from_Alt Pos_as_OTA.
-

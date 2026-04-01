@@ -11,7 +11,7 @@
 From ATBR Require Import Common.
 From ATBR Require Import Classes.
 From ATBR Require Import Graph.
-From Coq Require List.
+From Stdlib Require List.
 From ATBR Require Force.
 
 Set Implicit Arguments.

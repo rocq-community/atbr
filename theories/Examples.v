@@ -319,7 +319,7 @@ End Concrete.
     declared in Model_StdRelations, so that one can use our tactics to
     reason about these.  *)
 
-From Coq Require Relations.
+From Stdlib Require Relations.
 From ATBR Require Model_StdRelations.
 
 Section Concrete'.

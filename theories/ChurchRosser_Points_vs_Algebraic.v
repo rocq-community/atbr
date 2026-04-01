@@ -12,7 +12,7 @@
     href="ChurchRosser_Points_vs_Algebraic.v">here</a>#. *)
 
 From ATBR Require Import ATBR.
-From Coq Require Import Relations.
+From Stdlib Require Import Relations.
 
 (** * Standard proof: binary relations relate points to points *)
 Section CR_points.

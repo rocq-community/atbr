@@ -146,4 +146,3 @@ Module Load.
               change rel_star with (@star rel_Graph rel_Star_Op).
     
 End Load.
-

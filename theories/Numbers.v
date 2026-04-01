@@ -28,7 +28,7 @@
 From ATBR Require Import Common.
 From ATBR Require Import BoolView.
 From ATBR Require Import MyFSets MyFSetProperties MyFMapProperties.
-From Coq Require Import FSetPositive FMapPositive.
+From Stdlib Require Import FSetPositive FMapPositive.
 
 #[local] Ltac Tauto.intuition_solver ::= auto with bool lia.
 
@@ -517,4 +517,3 @@ Module Positive <: NUM.
 End Positive.
 
 Module PositiveUtils := NumUtils Positive.
-

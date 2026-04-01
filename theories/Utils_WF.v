@@ -217,7 +217,7 @@ End powerfix.
 (** Another way to construct well-founded relations: start with a well-founded one (e.g., the empty one), 
    and progressively add pairs satisfying some acyclicity property w.r.t. the current relation *)
 
-From Coq Require Relations.
+From Stdlib Require Relations.
 
 Section add_pair.
   Import Relations.

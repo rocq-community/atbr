@@ -9,11 +9,11 @@
 (** This small module is imported in all our files, it exports useful
    modules and defines some basic utilities and tactics *)
 
-From Coq Require Export Arith.
-From Coq Require Export Lia.
-From Coq Require Export BinNums BinPos PArith.Pnat.
-From Coq Require Export Program.Equality. 
-From Coq Require Export Setoid Morphisms. 
+From Stdlib Require Export Arith.
+From Stdlib Require Export Lia.
+From Stdlib Require Export BinNums BinPos PArith.Pnat.
+From Stdlib Require Export Program.Equality. 
+From Stdlib Require Export Setoid Morphisms. 
 
 Set Implicit Arguments.
 

@@ -12,7 +12,7 @@ From ATBR Require Import Common.
 From ATBR Require Import Classes.
 From ATBR Require Import MxGraph.
 From ATBR Require Converse.
-From Coq Require Import List.
+From Stdlib Require Import List.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
@@ -170,4 +170,3 @@ Module Load.
               change (@lang_star A) with (@star (@lang_Graph A) (@lang_Star_Op A) tt).
     
 End Load.
-

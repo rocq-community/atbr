@@ -34,7 +34,7 @@ From ATBR Require Import DKA_CheckLabels.
 From ATBR Require Import StrictStarForm.
 
 From ATBR Require Import Utils_WF.
-From Coq Require Import Relations.
+From Stdlib Require Import Relations.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

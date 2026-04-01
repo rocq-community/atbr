@@ -906,4 +906,3 @@ Goal forall `{KA: KleeneAlgebra} A (x y z: X A A), x+y==z*z -> sum 6 8 (fun _ =>
   setoid_rewrite H.
 Abort.
 endtests*)
-

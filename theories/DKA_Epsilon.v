@@ -24,8 +24,8 @@ From ATBR Require Import MxKleeneAlgebra.
 From ATBR Require Import DKA_Definitions.
 
 From ATBR Require Import Utils_WF.
-From Coq Require Import Relations.
-From Coq Require Import Eqdep_dec.
+From Stdlib Require Import Relations.
+From Stdlib Require Import Eqdep_dec.
 
 
 Set Implicit Arguments.

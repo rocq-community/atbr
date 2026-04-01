@@ -9,8 +9,8 @@
 (** Memoisation function for matrices: we define an identity function
    that enforces evaluation *)
 
-From Coq Require Import List.
-From Coq Require Import Arith.
+From Stdlib Require Import List.
+From Stdlib Require Import Arith.
 
 Set Implicit Arguments.
 
