@@ -17,6 +17,7 @@ From Stdlib Require Import Eqdep.
 Set Implicit Arguments.
 Unset Strict Implicit.
 Set Asymmetric Patterns.
+#[warning="-unknown-option"] Set Asymmetric Patterns No Implicits.
 
 (* generic environments *)
 Definition sigma := PositiveMap.t.

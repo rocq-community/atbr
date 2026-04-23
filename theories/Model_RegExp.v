@@ -30,6 +30,7 @@ From ATBR Require Import Reification.
 Set Implicit Arguments.
 Unset Strict Implicit.
 Set Asymmetric Patterns.
+#[warning="-unknown-option"] Set Asymmetric Patterns No Implicits.
 
 Module RegExp.
 
