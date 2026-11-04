@@ -178,7 +178,7 @@ Proof.
 Qed.
   
 
-Lemma star_remove: forall a: regex, remove a # == a #.
+Lemma star_remove: forall a: regex, (remove a) # == a #.
 Proof.
   induction a; simpl; fold_regex; auto with algebra.
   case_eq (contains_one a1); intro Ha1; trivial.

@@ -45,7 +45,7 @@ Fixpoint regex_language (e: regex): language :=
   match e with 
     | RegExp.plus e f => regex_language e + regex_language f
     | RegExp.dot e f => regex_language e * regex_language f
-    | RegExp.star e => regex_language e #
+    | RegExp.star e => (regex_language e) #
     | RegExp.one => 1
     | RegExp.zero => 0
     | RegExp.var a => (fun w => w = a::nil)

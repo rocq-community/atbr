@@ -55,7 +55,7 @@ Section PreDefs.
     match n with
       | 0 => fun M => M
       | S n => fun M =>
-        star_build (fun a => mx_of_scal (mx_to_scal a #)) (@star_rec n) M
+        star_build (fun a => mx_of_scal ((mx_to_scal a) #)) (@star_rec n) M
     end.
 
   Definition mx_star_block x n := star_build (@star_rec x) (@star_rec n).

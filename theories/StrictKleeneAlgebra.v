@@ -32,7 +32,7 @@ Notation "x == y"  := (equal _ _ x y) (at level 70): SA_scope.
 Notation "x <== y" := (leq _ _ x y) (at level 70): SA_scope. 
 Notation "x * y"   := (dot _ _ _ x y) (at level 40, left associativity): SA_scope. 
 Notation "x + y"   := (plus _ _ x y) (at level 50, left associativity): SA_scope. 
-Notation "x #"     := (star _ x) (at level 15, left associativity): SA_scope.
+Notation "x #"     := (star _ x): SA_scope.
 Notation "1"       := (one _): SA_scope. 
 
 Close Scope A_scope.

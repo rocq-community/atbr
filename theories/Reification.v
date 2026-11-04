@@ -95,7 +95,7 @@ Module KA.
         | one _ => 1
         | plus _ _ x y => eval x + eval y
         | zero _ _ => 0
-        | star _ x => eval x #
+        | star _ x => (eval x) #
         | var i => unpack (val i)
       end.
   End S.

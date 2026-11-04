@@ -44,14 +44,14 @@ Section ISR.
     end; autorewrite with converse_down.
 
   Existing Instance dot_compat_c.
-  Lemma conv_one A: one A` == 1.
+  Lemma conv_one A: (one A)` == 1.
   Proof.
     rewrite <- (dot_neutral_left_c ((one A)`)).
     switch. apply dot_neutral_left_c.
   Qed.
   Hint Rewrite conv_one: converse_down.
 
-  Lemma conv_zero A B: zero B A` == 0.
+  Lemma conv_zero A B: (zero B A)` == 0.
   Proof.
     transitivity ((dot B A A 0 (0`))`). 
     switch.

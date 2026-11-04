@@ -104,7 +104,7 @@ Module MAUT.
   }.
 
   (** formal evaluation to a regex *)
-  Definition eval A: regex := mx_to_scal (initial A * delta A # * final A).
+  Definition eval A: regex := mx_to_scal (initial A * (delta A) # * final A).
 
   Inductive equal : relation t :=
   | equal_refl: forall n U U' (M M': KMX n n) V V', 
