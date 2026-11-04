@@ -63,7 +63,7 @@ End Defs.
 Notation MX_ A n m := (@X (mx_Graph A) (n%nat:nat) (m%nat:nat)) (only parsing).
 Notation mx_equal_ A n m := (@equal (mx_Graph A) (n%nat) (m%nat)) (only parsing).
 
-Notation "! M" := (get M) (at level 0) : A_scope.
+Notation "! M" := (get M) (at level 1) : A_scope.
 Notation "M == [ n , m ]  N" := (@equal (mx_Graph _) n m M N) (at level 80) : A_scope.
 
 Lemma plus_minus : forall m n, S (m+n)-n = S m.

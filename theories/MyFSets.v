@@ -35,7 +35,7 @@ Module Type OrderedTypeAlt.
 
  Parameter compare_sym : forall x y, (y?=x) = CompOpp (x?=y).
  Parameter compare_trans : forall c x y z, (x?=y) = c -> (y?=z) = c -> (x?=z) = c.
- Parameter reflect : forall x y, x ?= y = Eq -> x = y.
+ Parameter reflect : forall x y, (x ?= y) = Eq -> x = y.
 End OrderedTypeAlt. 
 
 Module Nat_as_OTA <: OrderedTypeAlt.

@@ -68,8 +68,8 @@ Notation "x == y"  := (equal _ _ x y) (at level 70): A_scope.
 Notation "x <== y" := (leq _ _ x y) (at level 70): A_scope. 
 Notation "x * y"   := (dot _ _ _ x y) (at level 40, left associativity): A_scope. 
 Notation "x + y"   := (plus _ _ x y) (at level 50, left associativity): A_scope. 
-Notation "x #"     := (star _ x) (at level 15, left associativity): A_scope.
-Notation "x `"     := (conv _ _ x) (at level 15, left associativity): A_scope.  
+Notation "x #"     := (star _ x): A_scope.
+Notation "x `"     := (conv _ _ x): A_scope.
 Notation "1"       := (one _): A_scope. 
 Notation "0"       := (zero _ _): A_scope. 
 
